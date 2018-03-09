@@ -1,7 +1,7 @@
 # watchnime-dasboard
 dashboard + api build with laravel 5.5 for watchnime
 
-#init
+# init
 
 cd watchnime-dasboard
 
@@ -20,17 +20,17 @@ yarn install #install packet node js
 npm run production #bundle to ready production
 
 
-#auto migrate enable, to disable remove this. app/Console/Kernel.php
+# auto migrate enable, to disable remove this. app/Console/Kernel.php
 
-   protected function schedule(Schedule $schedule)
+    protected function schedule(Schedule $schedule)
     {
         $schedule->command('migrate:refresh --seed')
                  ->everyThirtyMinutes();
     }
-    
-    
-    
-#dummy
 
+    
+    
+# dummy
 Username: test@example.com
+
 Password: 123456
